@@ -5,6 +5,7 @@ class Application extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+      title: 'IMC',
       home: Home(),
       debugShowCheckedModeBanner: false,
     );
